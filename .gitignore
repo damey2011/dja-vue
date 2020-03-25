@@ -6,6 +6,7 @@ frontend/dist
 .env.local
 .env.*.local
 .env
+env
 
 # Log files
 frontend/npm-debug.log*
