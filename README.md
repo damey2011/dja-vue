@@ -4,10 +4,10 @@ An extremely simplified Django + Vue Boilerplate project code. Combining both of
 ---
 
 ## Setup
-> To create a new project based off this template. Clone it or use the django-admin tool like below.
+> To create a new project based off this template. Clone it like below.
 
 ```bash
-django-admin startproject --template https://github.com/damey2011/django-vue-starter/archive/master.zip project_folder_name
+git clone https://github.com/damey2011/django-vue-starter.git
 ```
 
 There is not much settings that need to be done, infact, no setting.
