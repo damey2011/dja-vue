@@ -104,4 +104,10 @@ Still has the same meaning as the regular templates folder. The entry file `inde
 
 ---
 
+### Requirements
+
+- Python 3
+
+---
+
 If you encounter any other problem, please create an issue. Thank you
