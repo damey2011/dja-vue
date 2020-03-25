@@ -7,7 +7,7 @@ An extremely simplified Django + Vue Boilerplate project code. Combining both of
 > To create a new project based off this template.
 
 ```bash
-django-admin startproject --template https://github.com/damey2011/repo/archive/master.zip project_name .
+django-admin startproject --template https://github.com/damey2011/django-vue-starter/archive/master.zip project_name .
 ```
 
 There is not much settings that need to be done, infact, no setting.
@@ -15,27 +15,34 @@ There is not much settings that need to be done, infact, no setting.
 ### For Development 
 While in the root directory:
 - Setup Virtual Environment 
+
   ```bash
   virtualenv -p python3 env
   ```
 - Activate Virtual Environment
+
   ```bash
     source env/bin/activate
   ```
 - Install requirements
+
   ```bash
   pip install -r requirements.txt
   ```
 - Run Django Server
+
   ```bash
   python manage.py runserver
   ```
   This starts at port 8000 except stated otherwise.
+  
 - Navigate into `frontend` and install dependencies
+
   ```bash
   cd frontend && npm install
   ```
 - Start the node server
+
   ```bash
   npm run serve
   ```
@@ -46,17 +53,20 @@ From here, you could continue with your development work.
 ### For production
 After you must have been done and you want to build your application, in the project root folder:
 Run 
+
 ```bash
 ./sync_frontend.sh
 ```
 
 If you can't run this, make the file executable first by running
+
 ```bash
 chmod u+x sync_frontend.sh
 ```
 Then try again.
 
 If you still have issues overall running this `sync_frontend.sh`, you could do it one after the other by running:
+
 ```bash
 cd frontend/
 npm run build
