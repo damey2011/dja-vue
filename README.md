@@ -69,6 +69,7 @@ If you still have issues overall running this `sync_frontend.sh`, you could do i
 
 ```bash
 cd frontend/
+npm run prebuild
 npm run build
 echo 'yes' | npm run sync
 ```

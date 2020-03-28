@@ -2,6 +2,7 @@ import os
 from shutil import copyfile
 
 from bs4 import BeautifulSoup
+from django.conf import settings
 from django.core.management import BaseCommand
 
 from project.settings import BASE_DIR
@@ -16,7 +17,7 @@ class Command(BaseCommand):
         content = index_file.read()
 
         def djangolize_link(lnk):
-            return "{% static '" + lnk.replace('/static/', '') + "' %}"
+            return "{% static '" + lnk.replace(settings.STATIC_URL, '') + "' %}"
 
         soup = BeautifulSoup(content, 'html.parser')
         index_file.close()
@@ -37,3 +38,4 @@ class Command(BaseCommand):
         index_file = open(new_file, 'w')
         index_file.write(content)
         index_file.close()
+

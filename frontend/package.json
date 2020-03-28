@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "prebuild": "source ../env/bin/activate & python3 ../manage.py update_front_end_static_url",
     "build": "vue-cli-service build",
     "sync": "source ../env/bin/activate & python3 ../manage.py run_frontend_build_corr & python3 ../manage.py collectstatic",
     "lint": "vue-cli-service lint"
