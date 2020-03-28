@@ -2,67 +2,45 @@
   <div class="home">
     <img alt="Vue logo" class="is-full" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Django + Vue.js App" />
-    <section>
+    <section class="container" id="our-container">
+      <div class="buttons">
+        <b-button type="is-primary">Primary</b-button>
+        <b-button type="is-success">Success</b-button>
+        <b-button type="is-danger">Danger</b-button>
+        <b-button type="is-warning">Warning</b-button>
+        <b-button type="is-info">Info</b-button>
+        <b-button type="is-link">Link</b-button>
+        <b-button type="is-light">Light</b-button>
+        <b-button type="is-dark">Dark</b-button>
+        <b-button type="is-text">Text</b-button>
+      </div>
+      <div class="buttons">
+        <b-button disabled>Disabled</b-button>
+        <b-button loading>Loading</b-button>
+        <b-button rounded>Rounded</b-button>
+      </div>
 
-        <div class="buttons">
-            <b-button type="is-primary">Primary</b-button>
+      <div class="buttons">
+        <b-button type="is-primary" outlined>Outlined</b-button>
+        <b-button type="is-success" outlined>Outlined</b-button>
+        <b-button type="is-danger" outlined>Outlined</b-button>
+        <b-button type="is-warning" outlined>Outlined</b-button>
+      </div>
 
-            <b-button type="is-success">Success</b-button>
+      <div class="buttons">
+        <b-button type="is-primary" expanded>Expanded</b-button>
+      </div>
 
-            <b-button type="is-danger">Danger</b-button>
-
-            <b-button type="is-warning">Warning</b-button>
-
-            <b-button type="is-info">Info</b-button>
-
-            <b-button type="is-link">Link</b-button>
-
-            <b-button type="is-light">Light</b-button>
-
-            <b-button type="is-dark">Dark</b-button>
-
-            <b-button type="is-text">Text</b-button>
-        </div>
-
-        <div class="buttons">
-            <b-button disabled>Disabled</b-button>
-
-            <b-button loading>Loading</b-button>
-
-            <b-button rounded>Rounded</b-button>
-        </div>
-
-        <div class="buttons">
-            <b-button type="is-primary" outlined>Outlined</b-button>
-            <b-button type="is-success" outlined>Outlined</b-button>
-            <b-button type="is-danger" outlined>Outlined</b-button>
-            <b-button type="is-warning" outlined>Outlined</b-button>
-        </div>
-
-        <div class="buttons">
-            <b-button type="is-primary" expanded>Expanded</b-button>
-        </div>
-
-        <div class="notification is-primary">
-            <b-button type="is-primary"
-                inverted>
-                Inverted
-            </b-button>
-
-            <b-button type="is-primary"
-                inverted
-                outlined>
-                Invert Outlined
-            </b-button>
-        </div>
-
+      <div class="notification is-primary">
+        <b-button type="is-primary" inverted>Inverted</b-button>
+        <b-button type="is-primary" inverted outlined>Invert Outlined</b-button>
+      </div>
     </section>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import HelloWorld from "../components/HelloWorld.vue";
 
 export default {
   name: "Home",
@@ -71,3 +49,9 @@ export default {
   }
 };
 </script>
+
+<style lang="less">
+    #our-container {
+        max-width: 500px;
+    }
+</style>
