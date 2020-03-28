@@ -10,6 +10,12 @@ An extremely simplified Django + Vue Boilerplate project code. Combining both of
 git clone https://github.com/damey2011/django-vue-starter.git
 ```
 
+> To use the preconfigured tailwind in your project
+
+```bash
+git clone -b feature/tailwind https://github.com/damey2011/django-vue-starter.git
+```
+
 There is not much settings that need to be done, infact, no setting.
 
 ### For Development 
