@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <img alt="Vue logo" class="mx-auto" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Django + Vue.js App" />
   </div>
 </template>
