@@ -1,0 +1,5 @@
+/*! Buefy v0.8.13 | MIT License | github.com/buefy/buefy */
+
+/*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */@keyframes spinAround{0%{transform:rotate(0deg)}to{transform:rotate(359deg)}}
+
+/*! minireset.css v0.0.4 | MIT License | github.com/jgthms/minireset.css */h1,h3,li,p,ul{margin:0;padding:0}h1,h3{font-size:100%;font-weight:400}ul{list-style:none}*,:after,:before{box-sizing:inherit}a{color:#7957d5;cursor:pointer;text-decoration:none}a:hover{color:#363636}img{height:auto;max-width:100%}@keyframes moveIndeterminate{0%{background-position:200% 0}to{background-position:-200% 0}}@keyframes fadeOut{0%{opacity:1}to{opacity:0}}@keyframes fadeOutDown{0%{opacity:1}to{opacity:0;transform:translate3d(0,100%,0)}}@keyframes fadeOutUp{0%{opacity:1}to{opacity:0;transform:translate3d(0,-100%,0)}}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}@keyframes fadeInDown{0%{opacity:0;transform:translate3d(0,-100%,0)}to{opacity:1;transform:none}}@keyframes fadeInUp{0%{opacity:0;transform:translate3d(0,100%,0)}to{opacity:1;transform:none}}
