@@ -21,3 +21,6 @@ frontend/yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+*.pyc
+*.sqlite3
