@@ -1,7 +1,7 @@
 # django-vue-starter
 An extremely simplified Django + Vue Boilerplate project code. Combining both official starter boilerplates hence ease of use.
 
-Demo here [https://dja-vue.herokuapp.com](https://dja-vue.herokuapp.com)
+Demo here (Master Branch) [https://dja-vue.herokuapp.com](https://dja-vue.herokuapp.com)
 
 ---
 
