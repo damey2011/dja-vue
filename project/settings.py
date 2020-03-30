@@ -24,7 +24,7 @@ SECRET_KEY = '9tdrj^!ff_x45#z)w-6em0x=-zl6on62-z4zdk*rter26xty^='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 SITE_ID = 1
 
@@ -157,7 +157,6 @@ ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False
 ACCOUNT_SESSION_REMEMBER = True
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_UNIQUE_EMAIL = True
-
 
 GITHUB_CALLBACK_URL = ''
 

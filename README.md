@@ -84,6 +84,12 @@ All done! You just need to run only your django application now.
 
 ---
 
+### Pre-installed packages
+
+- **Allauth**: You can find the documentation [here](https://django-allauth.readthedocs.io/en/latest/)
+- **Django Rest Auth**: This also depends on allauth, and you can find the documentation [Here](https://django-rest-auth.readthedocs.io/en/latest/)
+- **Django Yasg**: For documentation of the API, you can view this already at *http://YOURHOST/redocs/* as soon as you have deployed. Documentation is [here](https://github.com/axnsan12/drf-yasg)
+
 ### Directory Description
 
 > apps
