@@ -24,3 +24,5 @@ frontend/yarn-error.log*
 
 *.pyc
 *.sqlite3
+
+static/
