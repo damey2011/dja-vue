@@ -57,7 +57,7 @@ While in the root directory:
 From here, you could continue with your development work.
 
 ### For production
-After you must have been done and you want to build your application, in the project root folder:
+After you must have been done and you want to build your application, in the project root folder on your local machine:
 Run 
 
 ```bash
@@ -77,10 +77,19 @@ If you still have issues overall running this `sync_frontend.sh`, you could do i
 cd frontend/
 npm run prebuild
 npm run build
-echo 'yes' | npm run sync
+npm run sync
+python manage.py collectstatic
 ```
 
+While on your server, you might have to run the collect static again because the static folder is ignored repo-wise by default
+for size reasons. `python manage.py collectstatic`
+
+
 All done! You just need to run only your django application now. 
+
+```bash
+python manage.py runserver
+```
 
 ---
 
