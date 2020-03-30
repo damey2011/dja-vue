@@ -7,13 +7,13 @@ An extremely simplified Django + Vue Boilerplate project code. Combining both of
 > To create a new project based off this template. Clone it like below.
 
 ```bash
-git clone https://github.com/damey2011/django-vue-starter.git
+git clone https://github.com/damey2011/dja-vue.git
 ```
 
 > To use the preconfigured tailwind in your project
 
 ```bash
-git clone -b feature/tailwind https://github.com/damey2011/django-vue-starter.git
+git clone -b feature/tailwind https://github.com/damey2011/dja-vue.git
 ```
 
 There is not much settings that need to be done, infact, no setting.
