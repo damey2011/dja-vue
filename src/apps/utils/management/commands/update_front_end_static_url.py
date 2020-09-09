@@ -3,7 +3,7 @@ import os
 from django.conf import settings
 from django.core.management import BaseCommand
 
-from project.settings import BASE_DIR
+from ivf.settings import BASE_DIR
 
 
 class Command(BaseCommand):

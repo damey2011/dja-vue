@@ -1,5 +1,5 @@
 .DS_Store
-frontend/node_modules
+src/frontend/node_modules
 
 # local env files
 .env.local
@@ -24,4 +24,4 @@ frontend/yarn-error.log*
 *.pyc
 *.sqlite3
 
-/static/
+src/static/
